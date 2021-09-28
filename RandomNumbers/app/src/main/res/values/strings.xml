@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Random Numbers</string>
+    <string name="service_desc">This Service Downloads Items</string>
+</resources>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".HomeActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText1"
+        android:hint="First Name"
+        android:padding="10dp"
+        android:focusable="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText2"
+        android:hint="Last Name"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:focusable="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText3"
+        android:hint="Program of Study"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:focusable="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText4"
+        android:hint="Year of Study"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:focusable="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText5"
+        android:hint="Course Unit"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:focusable="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText6"
+        android:hint="Place of Residence"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:focusable="true" />
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="100dp"
+        android:layout_height="55dp"
+        android:text="Submit"
+        android:padding="5dp"
+        android:layout_marginTop="10dp"
+        android:focusable="true" />
+
+    <Button
+        android:id="@+id/youtubeButton"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_below="@id/btnsignin"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="-56dp"
+        android:layout_marginRight="0dp"
+        android:text="Registration Instructions" />
+
+    <Button
+        android:id="@+id/callButton"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="Call Registration Office"
+        android:padding="5dp"
+        android:layout_marginTop="10dp"
+        android:focusable="true" />
+
+    <Button
+        android:id="@+id/logoutButton"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_below="@id/placeOfResidenceViewid6"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="-56dp"
+        android:layout_marginRight="0dp"
+        android:focusable="true"
+        android:padding="5dp"
+        android:text=" L0GOUT" />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/firstnameViewid"
+        android:hint=""
+        android:padding="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/callButton"
+        android:focusable="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lastnameViewid2"
+        android:hint=""
+        android:padding="10dp"
+        android:layout_marginLeft="170dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="-40dp"
+        android:layout_below="@id/firstnameViewid"
+        android:focusable="true" />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/studyProgramViewid3"
+        android:hint=""
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/lastnameViewid2"
+        android:focusable="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/studyYearViewid4"
+        android:hint=""
+        android:padding="10dp"
+        android:layout_marginLeft="170dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="-40dp"
+        android:layout_below="@id/studyProgramViewid3"
+        android:focusable="true" />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/courseUnitViewid5"
+        android:hint=""
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/studyYearViewid4"
+        android:focusable="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/placeOfResidenceViewid6"
+        android:hint=""
+        android:padding="10dp"
+        android:layout_marginLeft="170dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="-40dp"
+        android:layout_below="@id/courseUnitViewid5"
+        android:focusable="true" />
+
+
+
+</LinearLayout>
